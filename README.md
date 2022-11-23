@@ -1,6 +1,6 @@
 # Nasa
 
-To run, cd into file then type in the command line
+To run, cd into the file then type in the command line
 
 ```
 mix run -e "IO.puts(Nasa.total_fuel_required(weight, instructions))"
