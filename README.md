@@ -1,22 +1,9 @@
 # Nasa
 
-**TODO: Add description**
+To run, type in the command line
 
-## Installation
+`elixir nasa.ex total_fuel_required(weight, instructions)`
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `nasa` to your list of dependencies in `mix.exs`:
+For example:
 
-```elixir
-def deps do
-  [
-    {:nasa, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/nasa>.
-
-# Elixirator-Take-Home
+`elixir nasa.ex total_fuel_required(28801, [{:launch, 9.807}, {:land, 1.62}, {:launch, 1.62}, {:land, 9.807}])`
